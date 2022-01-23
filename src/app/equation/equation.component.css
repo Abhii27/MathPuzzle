@@ -1,0 +1,142 @@
+.container {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
+  padding: 50px;
+  position: relative;
+  border-radius: 80px;
+  background-color: rgb(137, 223, 226);
+  box-shadow: 15px 15px 3px 3px rgb(87, 86, 86);
+}
+form {
+  display: flex;
+  justify-content: center;
+  font-size: 96px;
+}
+
+input {
+  font-size: 96px;
+  border: none;
+  border-radius: 40px;
+  width: 20%;
+  text-align: center;
+  margin-left: 8px;
+  background-color: azure;
+}
+
+input:focus {
+  outline: none;
+}
+
+.stats {
+  margin-top: 150px;
+  bottom: 100px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  position: center;
+  font-size: 24px;
+  background-color: rgb(227, 255, 255);
+  margin-left: 45%;
+  margin-right: 45%;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.close {
+  background-color: rgba(60, 235, 60, 0.767);
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+    padding: 30px;
+    position: relative;
+    border-radius: 50px;
+    background-color: rgb(137, 223, 226);
+    box-shadow: 15px 15px 3px 3px rgb(87, 86, 86);
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  input {
+    font-size: 40px;
+    border: none;
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+    margin-left: 4px;
+    background-color: azure;
+  }
+
+  .stats {
+    margin-top: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: center;
+    font-size: 20px;
+    background-color: rgb(227, 255, 255);
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .close {
+    background-color: rgba(60, 235, 60, 0.767);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20%;
+    padding: 30px;
+    position: relative;
+    border-radius: 50px;
+    background-color: rgb(137, 223, 226);
+    box-shadow: 15px 15px 3px 3px rgb(87, 86, 86);
+  }
+
+  form {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  input {
+    font-size: 40px;
+    border: none;
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+    margin-left: 4px;
+    background-color: azure;
+  }
+
+  .stats {
+    margin-top: 100px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: center;
+    font-size: 20px;
+    background-color: rgb(227, 255, 255);
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .close {
+    background-color: rgba(60, 235, 60, 0.767);
+  }
+}
